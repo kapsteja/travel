@@ -13,6 +13,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import DatePicker from "react-datepicker";
 import { event } from "jquery";
+import ReactDOM from 'react-dom';
 
 const Home = ({ onSuccess, onFailure }) => {
   const [location, setLocation] = useState("");
